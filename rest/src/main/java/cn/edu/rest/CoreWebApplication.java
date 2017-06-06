@@ -1,6 +1,7 @@
 package cn.edu.rest;
 
 import cn.edu.utils.rest.AbstractWebApplication;
+import com.google.common.collect.ImmutableSet;
 
 import java.util.Set;
 
@@ -9,6 +10,8 @@ import java.util.Set;
  */
 public class CoreWebApplication extends AbstractWebApplication {
     public Set<Class<?>> getClasses() {
-        return null;
+        return ImmutableSet.<Class<?>>builder()
+                .add(HelloWebResource.class)
+                .build();
     }
 }
