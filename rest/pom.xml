@@ -6,10 +6,13 @@
         <version>1.0</version>
     </parent>
     <modelVersion>4.0.0</modelVersion>
+
     <artifactId>rest</artifactId>
     <packaging>war</packaging>
+
     <name>rest Maven Webapp</name>
     <url>http://maven.apache.org</url>
+
     <dependencies>
         <dependency>
             <groupId>javax.servlet</groupId>
@@ -47,7 +50,4 @@
             <version>1.0</version>
         </dependency>
     </dependencies>
-    <build>
-        <finalName>rest</finalName>
-    </build>
 </project>

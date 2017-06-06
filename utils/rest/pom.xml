@@ -8,7 +8,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>onlab-rest</artifactId>
-    <packaging>pom</packaging>
+    <packaging>jar</packaging>
 
     <name>onlab-rest</name>
     <url>http://maven.apache.org</url>
