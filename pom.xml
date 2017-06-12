@@ -11,6 +11,7 @@
         <module>utils</module>
         <module>oauth</module>
         <module>rest</module>
+        <module>springmvc</module>
     </modules>
 
     <name>repository Maven Webapp</name>
